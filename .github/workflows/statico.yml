@@ -23,7 +23,7 @@ jobs:
 
       - name: Install HTML and CSS linters
         run: |
-          npm install htmlhint stylelint --save-dev
+          npm install htmlhint stylelint stylelint-config-standard --save-dev
 
       - name: Run HTML validation
         run: npx htmlhint '**/*.html'
